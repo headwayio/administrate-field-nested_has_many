@@ -1,7 +1,6 @@
-require "administrate/field/has_many"
-require "administrate/page/form"
 require "rails"
-require "administrate/engine"
+require "administrate"
+require "administrate/field/has_many"
 require "cocoon"
 
 module Administrate
