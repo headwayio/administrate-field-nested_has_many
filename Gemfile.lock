@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     administrate-field-nested_has_many (0.1.0)
-      administrate (~> 0.3.0)
+      administrate
       cocoon (~> 1.2)
       rails (~> 5.0)
 
@@ -97,7 +97,7 @@ GEM
       sass (>= 3.3)
       thor (~> 0.19)
     nio4r (2.0.0)
-    nokogiri (1.7.0.1)
+    nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
     normalize-rails (3.0.3)
     rack (2.0.1)
@@ -144,8 +144,8 @@ GEM
       sprockets (>= 3.0.0)
     thor (0.19.4)
     thread_safe (0.3.6)
-    tilt (2.0.6)
-    tzinfo (1.2.2)
+    tilt (2.0.7)
+    tzinfo (1.2.3)
       thread_safe (~> 0.1)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
@@ -158,4 +158,4 @@ DEPENDENCIES
   administrate-field-nested_has_many!
 
 BUNDLED WITH
-   1.14.1
+   1.14.6
